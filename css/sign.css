@@ -1,0 +1,73 @@
+header{
+  background: white;
+  border:solid 4px black;
+  margin-top:1px;
+  font-family: Autumn;
+  color:black;
+}
+header h1{
+  font-size: 400%;
+}
+main{
+  background-color: white;
+  border: solid 4px black;
+  min-height: 40vw;
+  padding: 0 30%;
+}
+form{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.elementos{
+  width: 62.50%;
+  height: 7.55vw;
+  border: solid 2px black;
+  padding-left: 0;
+}
+form .us{
+  margin-top: 0;
+  border: none;
+  width: 19.85%;
+  height: 1.5vw;
+  margin-right: 0;
+  padding-right: 12%;
+  background: rgb(128,128,128);
+  font-family: Algerian;
+  font-size: 120%;
+  color: black;
+  }
+form .ps{
+  border: none;
+  width: 19.85%;
+  height: 1.5vw;
+  margin-right: 0;
+  padding-right: 8%;
+  background: rgb(128,128,128);
+  font-family: Algerian;
+  font-size: 120%;
+  color: black;
+    }
+form input {
+  background: rgb(242, 242, 242);
+  border: none;
+  width: 42%;
+  height: 1.5vw;
+  margin-left: 0;
+}
+form .bt{
+  margin-top: 0.5vw;
+  border: none;
+  width: 19.85%;
+  height: 1.5vw;
+  padding-left: 6%;
+  padding-right: 6%;
+  background: rgb(230,184,183);
+  font-family: calibri;
+  font-size: 130%;
+  font-weight: bolder;
+}
+footer{
+  background: black;
+  width: 100%;
+  height: 5vw;
+}

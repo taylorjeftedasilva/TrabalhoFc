@@ -1,0 +1,41 @@
+body{
+  background: rgb(238, 236, 225);
+}
+header{
+  width: 100%;
+  background: rgb(89,89,89);
+  font-family: Autumn;
+  color: white;
+  text-align: center;
+  font-size: 300%;
+  padding: 2%;
+}
+main{
+  min-height: 35vw;
+}
+.vagas{
+  margin-top: 5%;
+  margin-bottom: 0;
+  padding: 1px;
+  background: rgb(128,128,128);
+  font-size: 400%;
+  font-family: Bernard MT Condensed;
+  color:rgb(146,208, 80);
+}
+table thead tr td{
+  font-size: 150%;
+  color:black;
+}
+table tr td{
+  background: rgb(242,242,242);
+  font-size: 140%;
+  text-align:center;
+  color:rgb(83,141,213);
+}
+
+footer{
+  margin-top: 2%;
+  width: 100%;
+  height: 150px;
+  background: rgb(89,89,89);
+}
