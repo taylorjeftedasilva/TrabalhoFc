@@ -39,3 +39,77 @@ footer{
   height: 150px;
   background: rgb(89,89,89);
 }
+.form{
+  width: 100vw;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.form label{
+  width: 100vw;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.f{
+  padding-left: 0;
+}
+.f input{
+  margin-right: 10px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.modal-containe{
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,.5);
+    position:fixed;
+    top:0px;
+    left: 0px;
+    z-index:2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-containe.mostrar{
+    display: flex;
+  }
+  .moda{
+    background: white;
+    width: 30%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid rgb(238, 236, 225);
+    box-shadow: 0 0 0 10px rgb(89,89,89);
+    position: relative;
+  }
+  @keyframes moda {
+    from{
+      opacity: 0;
+      transform: translate3d(0, -60px, 0);
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+  }
+  .mostrar .moda{
+    animation:moda .3s;
+  }
+
+  .fechar{
+    font-size: 1.2em;
+    position: absolute;
+    top: -30px;
+    right:-30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid rgba(89,89,89);
+    background: rgb(238, 236, 225);
+    color:white;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+
+  }

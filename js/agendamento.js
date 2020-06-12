@@ -42,3 +42,22 @@ function tabela(h, y){
   tr.appendChild(tdSabado);
   tr.appendChild(tdDomingo);
 }
+
+function iniciamodal(modalId){
+  var modal=document.getElementById(modalId);
+  modal.classList.add('mostrar');
+  modal.addEventListener('click', function(e){
+    if(e.target.id==modalId || e.target.className=='fechar'){
+      modal.classList.remove('mostrar')
+    }
+  })
+}
+var td =document.querySelector('table');
+td.addEventListener('click',function(e){
+  var h=document.getElementById('horario');
+  h.value=e.target.textContent;
+  var d=document.getElementById('diaDaSemana');
+  d.value=e.target.classList;
+  iniciamodal('modal-promocao');
+  console.log(e.target);
+});
